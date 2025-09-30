@@ -1,14 +1,19 @@
 # Tutorial: Construindo o menu de navegação
 
-Neste guia, vamos criar o menu de navegação do site "Setembro Amarelo". Mais do que apenas escrever o código, vamos entender por que uma estrutura bem organizada com HTML e classes no CSS é a melhor forma de trabalhar.
+Neste guia, vamos criar o menu de navegação do site [Setembro Amarelo](https://inspiradanacomputacao.com/setembro-amarelo/). 
+
+<img width="1500" height="54" alt="Captura de Tela 2025-09-30 às 12 53 32" src="https://github.com/user-attachments/assets/0e4b2a60-661b-42aa-b207-6ef1f2f7a18c" />
+
+Mais do que apenas escrever o código, vamos entender por que uma estrutura bem organizada com HTML e classes no CSS é a melhor forma de trabalhar.
+
 
 
 ## Deixando o HTML mais "inteligente" 
 
-Vamos começar refatorando o "esqueleto"/estrutura do nosso menu. Usaremos tags e divs de forma estratégica para nos dar total controle no CSS mais tarde.
+Vamos começar refatorando o "esqueleto" (estrutura) do nosso menu. Usaremos tags e divs de forma estratégica para nos dar total controle sobre o CSS mais tarde.
 
 
-### Passo 1: A Base com `<header>` e o `.container`
+### Passo 1: A Base com `<header>` e uma `div` container
 
 Todo site precisa de um cabeçalho. Mas, para que o conteúdo não fique "esparramado" em telas grandes, nós o colocamos dentro de uma "caixa" centralizada.
 
@@ -29,7 +34,7 @@ Todo site precisa de um cabeçalho. Mas, para que o conteúdo não fique "esparr
 #### Explicação: 
 - `<header>`: Informa ao navegador que este é o bloco do cabeçalho.
 
-- `<div class="container">`: Esta é a nossa "caixa de conteúdo". No CSS, vamos definir que ela tenha uma largura máxima (ex: `960px`) e fique sempre no centro da tela. Usaremos essa mesma classe `.container` em outras seções para manter todo o site perfeitamente alinhado.
+- `<div class="container">`: A `div` é a nossa "caixa de conteúdo". No CSS, vamos definir em outro momento que ela tenha uma largura máxima (ex: `960px`) e fique sempre no centro da tela. Usaremos essa mesma classe `.container` em outras seções para manter todo o site perfeitamente alinhado.
 
 
 
@@ -48,15 +53,15 @@ Nosso logo tem duas partes: um ícone (🎗️) e o texto. Para que eles andem s
 
 #### Explicação: 
 
-- `<div class="logo-wrapper">`: Funciona como um "agrupador". Agora, podemos mover e alinhar o logo inteiro apenas manipulando essa `<div class="logo-wrapper">`. Fica muito mais fácil posicionar o logo à esquerda e o menu à direita.
+- `<div class="logo-wrapper">`: Funciona como um "agrupador". Quando chegar o momento de estilizar com CSS poderemos mover e alinhar o logo inteiro apenas manipulando essa `<div class="logo-wrapper">`. Fica muito mais fácil posicionar o logo à esquerda e o menu à direita.
 
-- Classes `.logo-icon` e `.logo-text`: Damos "nomes" específicos para o ícone e para o texto para que, no CSS, possamos estilizar exatamente eles, sem afetar outros `<span>` ou `<h1>` que possam existir na página.
+- Classes `.logo-icon` e `.logo-text`: Damos "nomes" específicos para o ícone e para o texto para que no CSS possamos estilizar exatamente eles, sem afetar outros `<span>` ou `<h1>` que possam existir na página.
 
 
 
 ### Código parcial:
 
-Após realizar o **passo 1 e 2**, relacionado ao cabeçalho (`<header>`) deve estar assim: 
+Após realizar o **passo 1 e 2**, o cabeçalho (`<header>`) deve estar assim: 
 
 ```html
 <header>
@@ -156,7 +161,7 @@ E seu código HTML completo: Revisado até o `<header>`
 </html>
 ```
 
-Agora temos o HTML do `<header>` (cabeçalho) pronto para estilização. Ao final teremos esse resultado: 
+Agora temos o HTML do `<header>` (cabeçalho) pronto para estilização.
 
 
 
