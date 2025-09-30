@@ -238,12 +238,14 @@ Seu código `index.html` após a inclusão do arquivo de estilo:
 </html>
 ```
 
-Pronto! Seus arquivos agora estão conectados. Tudo que escrevermos em `style.css` será aplicado ao `index.html`. Vamos começar!
+Pronto! Seus arquivos agora estão conectados. Tudo que escrevermos em `style.css` será aplicado ao `index.html`. 
+
+Agora estamos prontos para começar a escrever os códigos CSS!
 
 
 ### Passo 0: A Base do nosso CSS (fontes, cores e padrões)
 
-Antes de estilizar partes específicas como o cabeçalho, um pessoa desenvolvedora de software prepara o "terreno". Vamos configurar fontes, cores e regras globais que serão usadas em todo o site. Isso garante consistência e facilita a manutenção.
+Antes de estilizar partes específicas do site (exemplo: o cabeçalho), temos que preparar o "terreno". Vamos configurar fontes, cores e regras globais que serão usadas em todo o site. Isso garante consistência e facilita a manutenção.
 
 
 Adicione os seguintes códigos ao arquivo `style.css`: 
@@ -399,6 +401,45 @@ Ao final das etapas, o código completo do CSS ficará assim:
 
 ```css
 
+/* Importa as fontes 'Montserrat' e 'Open Sans' do Google Fonts para serem usadas no site. */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap');
+
+/* Variáveis CSS para organizar nossas cores */
+:root { 
+    --primary-color: #F7C948; /* Amarelo principal */
+    --secondary-color: #333;
+    --text-color: #555;
+    --light-bg: #f9f9f9;
+    --white: #fff;
+    --dark-violet: #3d3dcd; /* Roxo escuro para contraste */
+    --hero-light-yellow: #fbecbb;
+    --hero-lighter-yellow: #FFFFFF;
+}
+
+/* Reset básico para remover estilos padrão do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos padrão para o corpo da página */
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--white);
+}
+
+
+/* Container para centralizar o conteúdo. Será aplicado a qualquer elemento que tenha a class="container" no HTML */
+.container { 
+    width: 960px;                         /* Define uma largura máxima fixa para a área de conteúdo. */
+    margin: 0 auto;                       /* Centraliza o container na página (0 de margem em cima/baixo, 'auto' nas laterais). */
+    padding: 0 20px;                      /* Adiciona um espaçamento interno de 20px nas laterais, para o conteúdo não colar nas bordas. */
+}
+
+
 header {
     background-color: #242474;
     padding: 10px 0;
@@ -453,6 +494,8 @@ header nav ul li a:hover {
 
 
 Carregue a página para ver o resultado. Seu menu estará como o da página: https://inspiradanacomputacao.com/setembro-amarelo/
+
+<img width="1500" height="54" alt="Captura de Tela 2025-09-30 às 12 53 32" src="https://github.com/user-attachments/assets/0e4b2a60-661b-42aa-b207-6ef1f2f7a18c" />
 
 
 ## Conclusão
