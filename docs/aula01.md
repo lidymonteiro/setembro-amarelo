@@ -6,11 +6,58 @@ Neste guia, vamos criar o menu de navegação do site [Setembro Amarelo](https:/
 
 Mais do que apenas escrever o código, vamos entender por que uma estrutura bem organizada com HTML e classes no CSS é a melhor forma de trabalhar.
 
+Antes de iniciar, lembre de criar (caso ainda não tenha criado) a pasta do projeto `site-setembro-amarelo` de dentro dela o arquivo     `index.html`. 
+
+Se você já tiver realizado em aulas anteriores, basta seguir o tutorial e revisar as próximas etapas. Ou seja: Conferir o que faz sentido você ajustar ou melhorar no seu código. 
+
+
+## A estrutura básica de toda página HTML
+
+No seu arquivo index.html adicione a estrutura básica. 
+
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Setembro Amarelo - Abrace a Vida</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+```
+
+### Explicação: 
+
+- `<!DOCTYPE html>`: Esta é a primeira linha de qualquer arquivo HTML5. Ela não é uma tag, mas sim uma declaração que diz ao navegador: "Atenção, este documento é uma página HTML5!". Isso garante que ele interprete nosso código da maneira correta.
+
+- `<html lang="pt-BR">`:  Esta é a tag raiz, a "mãe" de todas as outras. Tudo que faz parte da nossa página fica dentro dela. O atributo lang="pt-BR" informa ao navegador e aos mecanismos de busca (como o Google) que o idioma principal da página é o Português do Brasil. Isso é ótimo para acessibilidade e SEO.
+
+- `<head>`:  (A "Mente" da página). A seção <head> (cabeça) contém informações e configurações sobre o seu documento que não são visíveis diretamente na página. Pense nela como o "cérebro" do site. É aqui que colocamos:
+    - `<meta charset="UTF-8">`: Esta é talvez a meta tag mais importante. Ela garante que o navegador exiba corretamente todos os caracteres especiais do nosso idioma, como ç, ã, é, etc. Sem ela, seus textos com acentos poderiam aparecer quebrados.
+    - `<meta name="viewport" ...>`: Essencial para sites responsivos (que funcionam bem em celulares). A instrução `width=device-width` diz ao navegador para fazer a largura da página corresponder à largura da tela do dispositivo, e `initial-scale=1.0` garante que o site não comece com um zoom indesejado.
+    - `<title>`: O texto que você coloca aqui é o que aparece na aba do navegador. É o título da sua página.
+    - `<body>`: O "Corpo" da página. É aqui que toda a mágica visível acontece! Todo o conteúdo que você pode ver em um site (textos, imagens, vídeos, links e, claro, nosso menu de navegação) deve ser colocado dentro da tag `<body>`.
+
+
+### Dica de produtividade: O atalho mágico!
+Digitar tudo isso toda vez pode ser cansativo. Felizmente, a maioria dos editores de código modernos (como o VS Code) tem um atalho incrível para gerar essa estrutura automaticamente.
+
+- Abra um arquivo em branco com a extensão .html.
+- Digite apenas ! (um ponto de exclamação).
+- Pressione a tecla Tab.
+
+Pronto! O editor irá gerar toda a estrutura básica para você. A única coisa que você precisa fazer é alterar o atributo lang para `"pt-BR"` e mudar o texto dentro da tag `<title>`.
+
+Com essa estrutura base pronta e salva no seu index.html, agora podemos seguir para o próximo passo do seu tutorial e começar a construir nosso menu dentro da tag `<body>`.
 
 
 ## Deixando o HTML mais "inteligente" 
 
-Vamos começar refatorando o "esqueleto" (estrutura) do nosso menu. Usaremos tags e divs de forma estratégica para nos dar total controle sobre o CSS mais tarde.
+Vamos começar criando o "esqueleto" (estrutura) do nosso menu. Usaremos tags e divs de forma estratégica para nos dar total controle sobre o CSS mais tarde.
 
 
 ### Passo 1: A Base com `<header>` e uma `div` container
