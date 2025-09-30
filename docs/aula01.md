@@ -171,7 +171,7 @@ Agora que nosso esqueleto/estrutura HTML está montado, vamos começar a parte m
 
 
 ### Preparação: Conectando os Arquivos
-Antes de escrever qualquer estilo, precisamos garantir que nosso arquivo `s`tyle.css exista e que o `index.html` saiba onde encontrá-lo.
+Antes de escrever qualquer estilo, precisamos garantir que nosso arquivo `style.css` exista e que o `index.html` saiba onde encontrar.
 
 #### 1. Crie o arquivo e a pasta:
 Como uma boa prática de organização, vamos manter nossos estilos em um arquivo separado.
@@ -182,21 +182,16 @@ Como uma boa prática de organização, vamos manter nossos estilos em um arquiv
 #### 2. Conecte o CSS ao HTML:
 Para que o `index.html` possa usar os estilos do `style.css`, você precisa "avisar" a ele onde o arquivo está. Fazemos isso com uma única linha de código na seção `<head>` do seu HTML.
 
-Abra o arquivo `index.html` e, dentro da tag `<head>`, adicione a seguinte linha:
+No arquivo `index.html`, dentro da tag `<head>`, adicione a seguinte linha:
 
 ```html
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Setembro Amarelo - Abrace a Vida</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
+  <link rel="stylesheet" href="css/style.css">
 ```
 
 
 #### Explicação: 
 
--`<link>`: É a tag usada para conectar recursos externos.
+- `<link>`: É a tag usada para conectar recursos externos.
 
 - `rel="stylesheet"`: rel significa "relação". Estamos dizendo ao HTML que a relação deste arquivo com a página é de uma folha de estilos (stylesheet).
 
@@ -205,7 +200,7 @@ Abra o arquivo `index.html` e, dentro da tag `<head>`, adicione a seguinte linha
 
 #### Revisão do Código HTML
 
-Seu código index.html após a inclusão: 
+Seu código `index.html` após a inclusão do arquivo de estilo: 
 
 ```html
 <!DOCTYPE html>
