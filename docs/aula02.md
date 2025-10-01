@@ -17,7 +17,7 @@ Ao final desse tutorial, teremos o nosso site assim:
 
 ## A Estrutura HTML da Seção Hero
 
-Vamos adicionar o "esqueleto" da nossa seção no arquivo `index.html`, logo após o fechamento da tag `</header>`.
+Vamos adicionar o "esqueleto" (estrutura) da nossa seção no arquivo `index.html`, logo após o fechamento da tag `</header>`.
 
 
 ### Passo 1: Criando a Seção e o Container
@@ -38,7 +38,6 @@ Abaixo do `</header>`, adicione o seguinte código:
 ```
 
 #### Explicação: 
-
 
 - `<main>`: É uma tag semântica que indica o início do conteúdo principal da página.
 
