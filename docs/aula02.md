@@ -11,6 +11,9 @@ Com nosso cabeçalho pronto, vamos criar a primeira seção de conteúdo da pág
 
 Ao final desse tutorial, teremos o nosso site assim: 
 
+<img width="1237" height="553" alt="Captura de Tela 2025-10-01 às 19 07 47" src="https://github.com/user-attachments/assets/d3ebf8a5-3709-4ab9-bf79-13510dee4d2b" />
+
+
 
 ## A Estrutura HTML da Seção Hero
 
