@@ -304,7 +304,203 @@ Ao final dessa etapa você terá construido esse código CSS:
 }
 ```
 
+
+
+### O código CSS completo do site estará assim: 
+
+```css
+/* Importa as fontes 'Montserrat' e 'Open Sans' do Google Fonts para serem usadas no site. */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap');
+
+/* Variáveis CSS para organizar nossas cores */
+:root { 
+    --primary-color: #F7C948; /* Amarelo principal */
+    --secondary-color: #333;
+    --text-color: #555;
+    --light-bg: #f9f9f9;
+    --white: #fff;
+    --dark-violet: #3d3dcd; /* Roxo escuro para contraste */
+    --hero-light-yellow: #fbecbb;
+    --hero-lighter-yellow: #FFFFFF;
+}
+
+/* Reset básico para remover estilos padrão do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos padrão para o corpo da página */
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--white);
+}
+
+
+/* Container para centralizar o conteúdo. Será aplicado a qualquer elemento que tenha a class="container" no HTML */
+.container { 
+    width: 960px;                         /* Define uma largura máxima fixa para a área de conteúdo. */
+    margin: 0 auto;                       /* Centraliza o container na página (0 de margem em cima/baixo, 'auto' nas laterais). */
+    padding: 0 20px;                      /* Adiciona um espaçamento interno de 20px nas laterais, para o conteúdo não colar nas bordas. */
+}
+
+
+header {
+    background-color: #242474;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-wrapper {
+    display: flex;
+    align-items: center; /* Alinha a logo ao centro */
+    gap: 8px; /* Cria um espaço entre o ícone e o texto */
+}
+
+.logo-icon {
+    font-size: 2em; /* Aumenta o tamanho do emoji */
+}
+
+.logo-text {
+    font-size: 1.3em;
+    color: var(--primary-color); /* Cor amarela */
+    margin: 0;
+}
+
+
+header nav ul {
+    list-style: none; /* Remove as bolinhas */
+    display: flex;    /* Coloca os itens um ao lado do outro no menu */
+}
+
+header nav ul li {
+    margin-left: 25px; /* Cria um respiro entre cada item do menu */
+}
+
+header nav ul li a {
+    color: var(--white);
+    text-decoration: none; /* Remove o sublinhado */
+    font-weight: bold;
+    font-size: 15px;
+    transition: color 0.3s ease; /* Animação suave na troca de cor */
+}
+
+header nav ul li a:hover {
+    color: var(--primary-color); /* Muda a cor para amarelo ao passar o mouse */
+}
+
+.hero {
+    /* A mágica acontece aqui! Combinamos 3 camadas de fundo: */
+    background: 
+        linear-gradient(0deg, rgb(0 0 0 / 65%), rgb(4 1 1 / 35%)), /* 1. Camada de gradiente escuro por cima */
+        url(https://blog.unoeste.br/wp-content/uploads/2021/09/setembro-amarelo.jpg) center / cover no-repeat; /* 2. Nossa imagem de fundo */
+
+    color: var(--white); /* Define que todo o texto dentro do hero será branco */
+    text-align: center; /* Centraliza todo o conteúdo */
+    padding: 100px 0; /* Adiciona um grande espaçamento interno (em cima e embaixo) para a seção ficar alta */
+}
+
+.hero h2 {
+    font-family: 'Montserrat', sans-serif; /* Usando a fonte de títulos que importamos */
+    font-size: 3em; /* Tamanho 3x maior que o texto padrão */
+    margin-bottom: 20px; /* Espaço abaixo do título */
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    max-width: 800px; /* Limita a largura do parágrafo para não ficar muito extenso */
+    margin-left: auto; /* Truque para centralizar um elemento com largura máxima */
+    margin-right: auto;
+}
+
+.hero-hashtag {
+    font-weight: bold; /* Deixa a hashtag em negrito */
+    color: var(--primary-color); /* Deixa a hashtag com a cor amarela da campanha */
+    font-size: 1.3em;
+    margin-top: -10px; /* Puxa a hashtag um pouco para cima */
+}
+
+.btn-cta {
+    display: inline-block; /* Permite que o link tenha altura, largura e padding */
+    background-color: var(--hero-light-yellow); /* Usando nossa variável de cor */
+    color: var(--dark-violet); /* Cor do texto do botão */
+    padding: 15px 30px; /* Espaçamento interno que cria o tamanho do botão */
+    text-decoration: none; /* Remove o sublinhado padrão do link */
+    border-radius: 8px; /* Deixa os cantos do botão arredondados */
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: all 0.3s ease; /* Animação suave para todas as propriedades */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra sutil */
+}
+
+.btn-cta:hover {
+    background-color: var(--primary-color); /* Muda a cor de fundo ao passar o mouse */
+    transform: translateY(-2px); /* Efeito de "levantar" o botão sutilmente */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15); /* Aumenta a sombra para dar profundidade */
+}
+
+.info-section {
+    padding: 80px 0; /* Espaçamento interno para a seção "respirar" */
+    text-align: center; /* Centraliza o título h3 por padrão */
+}
+
+.info-section h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.2em;
+    color: var(--dark-violet); /* Usando nossa variável de cor */
+    margin-bottom: 40px; /* Espaço abaixo do título */
+}
+
+.sobre-content {
+    display: flex;          /* Ativa o layout flexível */
+    align-items: center;    /* Alinha o texto e a imagem verticalmente no centro */
+    gap: 40px;              /* Cria um espaço de 40px entre as duas colunas */
+    text-align: left;       /* Alinha o texto dos parágrafos à esquerda */
+    margin-top: 40px;
+}
+
+.sobre-texto, .sobre-imagem {
+    flex: 1; /* Faz com que cada coluna (texto e imagem) ocupe o mesmo espaço disponível. */
+}
+
+.sobre-imagem img {
+    width: 100%; /* Faz a imagem ocupar 100% da largura da sua coluna. */
+    border-radius: 8px; /* Cantos arredondados */
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1); /* Sombra sutil para dar profundidade */
+}
+
+.video-container {
+    position: relative; /* Define o contexto para o posicionamento do iframe */
+    /* A técnica da proporção 16:9: (9 / 16 * 100) = 56.25% */
+    padding-bottom: 56.25%; 
+    height: 0; /* A altura será definida pelo padding-bottom */
+    overflow: hidden; /* Garante que nada escape do container */
+    max-width: 100%;
+    margin-top: 50px; /* Cria um espaço acima do vídeo */
+    border-radius: 8px;
+}
+
+.video-container iframe {
+    position: absolute; /* Posiciona o vídeo em relação ao container */
+    top: 0;
+    left: 0;
+    width: 100%; /* Faz o vídeo ocupar toda a largura do container */
+    height: 100%; /* Faz o vídeo ocupar toda a altura do container */
+}
+```
+
+
 ## Conclusão
 
 Excelente trabalho! Você acabou de construir uma das seções mais importantes e versáteis do site.
-Atualize o navegador e veja como a página está ganhando forma!
+Atualize o navegador e veja como a página está ganhando forma! Compare com o site de exemplo: [https://inspiradanacomputacao.com/setembro-amarelo/](https://inspiradanacomputacao.com/setembro-amarelo/)
