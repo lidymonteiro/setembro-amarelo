@@ -2,6 +2,9 @@
 
 Com o topo do site pronto, o próximo passo é criar a seção que apresenta a campanha. Aqui, vamos aprender a criar um dos layouts mais úteis e comuns na web: um bloco de texto alinhado ao lado de uma imagem. Além disso, vamos aprender a técnica correta para incorporar um vídeo do YouTube de forma responsiva.
 
+Ao final desse tutorial, teremos construído essa área do [site setembro amarelo](https://inspiradanacomputacao.com/setembro-amarelo/): 
+<img width="1233" height="807" alt="Captura de Tela 2025-10-01 às 20 24 32" src="https://github.com/user-attachments/assets/6abcddf3-744b-435f-9489-d78ccdd83faa" />
+
 **Nosso objetivo:** Construir a seção "Sobre" com layout de duas colunas e um vídeo.
 
 **Conceitos que vamos aprender:** Reforçar o uso de Flexbox, incorporar mídias (`<img>`, `<iframe>`) e a técnica profissional para vídeos responsivos.
