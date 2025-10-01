@@ -153,7 +153,7 @@ Após realizar as etapas anteriores, esse será o código HTML completo do seu s
 
     </main>
 
-    <!-- Continua abaixo o HTML das outras áreas do site... -->
+    <!-- Continua abaixo os outros códigos HTML -->
 
 </body>
 </html>
