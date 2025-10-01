@@ -251,7 +251,7 @@ Adicione o código abaixo. Preste atenção nos comentários, eles explicam a "m
 
 ### Revisão: Código CSS
 
-Ao final dessa etapa esse será o código CSS completo do site:
+Ao final dessa etapa você terá construido esse código CSS:
 
 ```css
 .info-section {
