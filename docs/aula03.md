@@ -249,7 +249,62 @@ Adicione o código abaixo. Preste atenção nos comentários, eles explicam a "m
 }
 ```
 
-### Conclusão
+### Revisão: Código CSS
+
+Ao final dessa etapa esse será o código CSS completo do site:
+
+```css
+.info-section {
+    padding: 80px 0; /* Espaçamento interno para a seção "respirar" */
+    text-align: center; /* Centraliza o título h3 por padrão */
+}
+
+.info-section h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.2em;
+    color: var(--dark-violet); /* Usando nossa variável de cor */
+    margin-bottom: 40px; /* Espaço abaixo do título */
+}
+
+.sobre-content {
+    display: flex;          /* Ativa o layout flexível */
+    align-items: center;    /* Alinha o texto e a imagem verticalmente no centro */
+    gap: 40px;              /* Cria um espaço de 40px entre as duas colunas */
+    text-align: left;       /* Alinha o texto dos parágrafos à esquerda */
+    margin-top: 40px;
+}
+
+.sobre-texto, .sobre-imagem {
+    flex: 1; /* Faz com que cada coluna (texto e imagem) ocupe o mesmo espaço disponível. */
+}
+
+.sobre-imagem img {
+    width: 100%; /* Faz a imagem ocupar 100% da largura da sua coluna. */
+    border-radius: 8px; /* Cantos arredondados */
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1); /* Sombra sutil para dar profundidade */
+}
+
+.video-container {
+    position: relative; /* Define o contexto para o posicionamento do iframe */
+    /* A técnica da proporção 16:9: (9 / 16 * 100) = 56.25% */
+    padding-bottom: 56.25%; 
+    height: 0; /* A altura será definida pelo padding-bottom */
+    overflow: hidden; /* Garante que nada escape do container */
+    max-width: 100%;
+    margin-top: 50px; /* Cria um espaço acima do vídeo */
+    border-radius: 8px;
+}
+
+.video-container iframe {
+    position: absolute; /* Posiciona o vídeo em relação ao container */
+    top: 0;
+    left: 0;
+    width: 100%; /* Faz o vídeo ocupar toda a largura do container */
+    height: 100%; /* Faz o vídeo ocupar toda a altura do container */
+}
+```
+
+## Conclusão
 
 Excelente trabalho! Você acabou de construir uma das seções mais importantes e versáteis do site.
 Atualize o navegador e veja como a página está ganhando forma!
