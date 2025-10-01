@@ -1,6 +1,6 @@
 # Tutorial: Construindo a área de destaque
 
-Com nosso cabeçalho pronto, vamos criar a primeira seção de conteúdo da página. Chamamos essa área de "Seção Hero", pois é a primeira coisa que o visitante vê e serve para causar um grande impacto inicial, apresentando o tema principal do site.
+Com nosso cabeçalho pronto, vamos criar a primeira seção de conteúdo da página do [site setembro amarelo](https://inspiradanacomputacao.com/setembro-amarelo/). Chamamos essa área de "Seção Hero", pois é a primeira coisa que o visitante vê e serve para causar um grande impacto inicial, apresentando o tema principal do site.
 
 <img width="1238" height="468" alt="Captura de Tela 2025-10-01 às 19 06 19" src="https://github.com/user-attachments/assets/0ede453f-1093-4c00-96d6-4b0434a9b03d" />
 
@@ -9,10 +9,11 @@ Com nosso cabeçalho pronto, vamos criar a primeira seção de conteúdo da pág
 
 **Conceitos que vamos aprender**: Backgrounds com imagens e gradientes, estilização de tipografia (fontes, tamanhos) e a criação de botões interativos.
 
+**Dica:** Lembre de conferir no navegador cada ajuste que você for fazendo. E ao final das etapas confira se está como no site de exemplo: [https://inspiradanacomputacao.com/setembro-amarelo/](https://inspiradanacomputacao.com/setembro-amarelo/)
+
 Ao final desse tutorial, teremos o nosso site assim: 
 
 <img width="1237" height="553" alt="Captura de Tela 2025-10-01 às 19 07 47" src="https://github.com/user-attachments/assets/d3ebf8a5-3709-4ab9-bf79-13510dee4d2b" />
-
 
 
 ## A Estrutura HTML da Seção Hero
@@ -66,7 +67,7 @@ Agora, dentro do `<div class="container">`, vamos adicione os textos e o botão 
 - `<a href="#ajuda" class="btn-cta">`: Este é o nosso "Call to Action" (Chamada para Ação). É um link, mas vamos estilizá-lo para que se pareça com um botão. A classe `btn-cta` será usada para essa finalidade.
 
 
-### Revisão do HTML da sessão:
+### Revisão do HTML da sessão de início:
 
 Ao final, a estrutura completa da sua nova seção deve ser esta:
 
@@ -92,7 +93,6 @@ O HTML completo da página até a sessão que acabamos de criar fica assim:
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
     <title>Setembro Amarelo - Abrace a Vida</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -146,7 +146,9 @@ Esta é a parte mais importante. Vamos adicionar a imagem de fundo e uma camada 
 
 Para começar, crie no projeto uma pasta `images` e adicione a imagem: [https://blog.unoeste.br/wp-content/uploads/2021/09/setembro-amarelo.jpg](https://blog.unoeste.br/wp-content/uploads/2021/09/setembro-amarelo.jpg)
 
-No seu `style.css`, após os estilos do `header`, adicione o código abaixo para estilizar a classe `.hero` que é utilizada na seção que criamos. 
+Salve na pasta a imagem com o nome `setembro-amarelo`. 
+
+No seu arquivo `style.css`, após os estilos do `header` - ou seja, no final do arquivo, adicione o código abaixo para estilizar a classe `.hero` que é utilizada na seção que criamos no passo anterior. 
 
 
 ```css
@@ -294,7 +296,7 @@ Após realizar as etapas acima o seu código CSS será:
 
 ### Revisão CSS de todo o site: 
 
-Segue abaixo o código completo do arquivo style.css após realizadas as mudanças que aprendemos nesse tutorial, acrescido do CSS do menu que adicionamos no outro tutorial: 
+Segue abaixo o código completo do arquivo `style.css` após realizadas as etapas que aprendemos nesse tutorial: 
 
 ```css
 
@@ -444,4 +446,7 @@ header nav ul li a:hover {
 ### Conclusão:
 
 Trabalho fantástico! Agora você tem um cabeçalho funcional e uma seção de destaque visualmente impactante.
+
+Para garantir, confira se seu site tem o menu e área principal como no site de exemplo: [https://inspiradanacomputacao.com/setembro-amarelo/](https://inspiradanacomputacao.com/setembro-amarelo/)
+
 
