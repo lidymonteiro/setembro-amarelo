@@ -81,6 +81,87 @@ Ainda na `<div class="container">`, após o fechamento da div `class="sobre-cont
 </div>
 ```
 
+### Revisão do HTML: 
+
+Após realizar as etapas anteriores, esse será o código HTML completo do seu site: 
+
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Setembro Amarelo - Abrace a Vida</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo-wrapper">  <span class="logo-icon" aria-hidden="true">🎗️</span>
+                <h1 class="logo-text">Setembro Amarelo</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#ajuda">Onde buscar ajuda</a></li>
+                    <li><a href="#como-ajudar">Como ajudar</a></li>
+                    <li><a href="#recursos">Recursos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <div class="container">
+                <h2>Conversar pode mudar vidas</h2>
+                <p class="hero-hashtag">#VocêNãoEstáSozinho</p> 
+                <p>Uma campanha de conscientização sobre a prevenção do suicídio.</p>
+                <a href="#ajuda" class="btn-cta">Quero ajuda</a>
+            </div>
+        </section>
+
+        <section id="sobre" class="info-section">
+            <div class="container">
+                <h3>O que é o Setembro Amarelo?</h3>
+                <div class="sobre-content">
+                    <div class="sobre-texto">
+                        <p>O Setembro Amarelo é uma campanha de prevenção ao suicídio, com o objetivo direto de alertar a população sobre a realidade do suicídio e suas formas de prevenção. A campanha acontece durante o mês de setembro, mas a conscientização é para o ano todo.</p>
+                        <p>É um movimento iniciado no Brasil em 2015 pelo Centro de Valorização da Vida (CVV), Conselho Federal de Medicina (CFM) e Associação Brasileira de Psiquiatria (ABP).</p>
+                    </div>
+                    <div class="sobre-imagem">
+                        <img src="images/grupo-amigos.png" alt="Duas pessoas se consolando com um abraço, simbolizando apoio e empatia.">
+                    </div>
+                </div>
+
+                <br>
+
+                <div class="video-container">
+                    <p>Assista ao vídeo da campanha do CVV para entender melhor a importância de falar.</p>
+
+                    <iframe width="560" height="315"
+                    src="https://www.youtube-nocookie.com/embed/7YzmGnMDNvk?rel=0"
+                    title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Continua abaixo o HTML das outras áreas do site... -->
+
+</body>
+</html>
+
+
+
+```
+
 ## Estilizando a seção "Sobre" com CSS
 
 Com o HTML pronto, vamos ao `style.css` para criar o visual desta seção.
