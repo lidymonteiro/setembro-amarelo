@@ -9,6 +9,8 @@ Ao final desse tutorial, teremos construído essa área do [site setembro amarel
 
 **Conceitos que vamos aprender:** Reforçar o uso de Flexbox, incorporar mídias (`<img>`, `<iframe>`) e a técnica profissional para vídeos responsivos.
 
+**Dica:** Lembre de conferir no navegador cada ajuste que você for fazendo. E ao final das etapas confira se está como no site de exemplo: [https://inspiradanacomputacao.com/setembro-amarelo/](https://inspiradanacomputacao.com/setembro-amarelo/)
+
 Vamos continuar nosso projeto no ponto em que paramos.
 
 ## A Estrutura HTML da seção "Sobre"
