@@ -140,11 +140,11 @@ O HTML completo da página até a sessão que acabamos de criar fica assim:
 Com o HTML da seção pronto, vamos ao `style.css` para criar o visual impactante da nossa seção.
 
 
-### Passo 1: O Fundo de impacto (`.hero`)
+### Passo 1: O fundo de impacto (`.hero`)
 
 Esta é a parte mais importante. Vamos adicionar a imagem de fundo e uma camada escura por cima para garantir que o texto branco fique legível.
 
-Para começar, crie no projeto uma pasta `images` e adicione a imagem: [https://blog.unoeste.br/wp-content/uploads/2021/09/setembro-amarelo.jpg](https://blog.unoeste.br/wp-content/uploads/2021/09/setembro-amarelo.jpg)
+Para começar, crie no projeto uma pasta `images` e adicione a imagem: [https://blog.unoeste.br/wp-content/uploads/2025/09/setembro-amarelo.jpg](https://blog.unoeste.br/wp-content/uploads/2025/09/setembro-amarelo.jpg)
 
 Salve na pasta a imagem com o nome `setembro-amarelo`. 
 
