@@ -139,6 +139,8 @@ Com o HTML da seção pronto, vamos ao `style.css` para criar o visual impactant
 
 Esta é a parte mais importante. Vamos adicionar a imagem de fundo e uma camada escura por cima para garantir que o texto branco fique legível.
 
+Para começar, crie no projeto uma pasta `images` e adicione a imagem: [https://blog.unoeste.br/wp-content/uploads/2021/09/setembro-amarelo.jpg](https://blog.unoeste.br/wp-content/uploads/2021/09/setembro-amarelo.jpg)
+
 No seu `style.css`, após os estilos do `header`, adicione o código abaixo para estilizar a classe `.hero` que é utilizada na seção que criamos. 
 
 
@@ -147,7 +149,7 @@ No seu `style.css`, após os estilos do `header`, adicione o código abaixo para
     /* A mágica acontece aqui! Combinamos 3 camadas de fundo: */
     background: 
         linear-gradient(0deg, rgb(0 0 0 / 65%), rgb(4 1 1 / 35%)), /* 1. Camada de gradiente escuro por cima */
-        url(https://blog.unoeste.br/wp-content/uploads/2021/09/setembro-amarelo.jpg) center / cover no-repeat; /* 2. Nossa imagem de fundo */
+        url("../images/setembro-amarelo.jpg") center / cover no-repeat; /* 2. Nossa imagem de fundo */
 
     color: var(--white); /* Define que todo o texto dentro do hero será branco */
     text-align: center; /* Centraliza todo o conteúdo */
@@ -378,6 +380,57 @@ header nav ul li a {
 
 header nav ul li a:hover {
     color: var(--primary-color); /* Muda a cor para amarelo ao passar o mouse */
+}
+
+.hero {
+    /* A mágica acontece aqui! Combinamos 3 camadas de fundo: */
+    background: 
+        linear-gradient(0deg, rgb(0 0 0 / 65%), rgb(4 1 1 / 35%)), /* 1. Camada de gradiente escuro por cima */
+        url(https://blog.unoeste.br/wp-content/uploads/2021/09/setembro-amarelo.jpg) center / cover no-repeat; /* 2. Nossa imagem de fundo */
+
+    color: var(--white); /* Define que todo o texto dentro do hero será branco */
+    text-align: center; /* Centraliza todo o conteúdo */
+    padding: 100px 0; /* Adiciona um grande espaçamento interno (em cima e embaixo) para a seção ficar alta */
+}
+
+.hero h2 {
+    font-family: 'Montserrat', sans-serif; /* Usando a fonte de títulos que importamos */
+    font-size: 3em; /* Tamanho 3x maior que o texto padrão */
+    margin-bottom: 20px; /* Espaço abaixo do título */
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    max-width: 800px; /* Limita a largura do parágrafo para não ficar muito extenso */
+    margin-left: auto; /* Truque para centralizar um elemento com largura máxima */
+    margin-right: auto;
+}
+
+.hero-hashtag {
+    font-weight: bold; /* Deixa a hashtag em negrito */
+    color: var(--primary-color); /* Deixa a hashtag com a cor amarela da campanha */
+    font-size: 1.3em;
+    margin-top: -10px; /* Puxa a hashtag um pouco para cima */
+}
+
+.btn-cta {
+    display: inline-block; /* Permite que o link tenha altura, largura e padding */
+    background-color: var(--hero-light-yellow); /* Usando nossa variável de cor */
+    color: var(--dark-violet); /* Cor do texto do botão */
+    padding: 15px 30px; /* Espaçamento interno que cria o tamanho do botão */
+    text-decoration: none; /* Remove o sublinhado padrão do link */
+    border-radius: 8px; /* Deixa os cantos do botão arredondados */
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: all 0.3s ease; /* Animação suave para todas as propriedades */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra sutil */
+}
+
+.btn-cta:hover {
+    background-color: var(--primary-color); /* Muda a cor de fundo ao passar o mouse */
+    transform: translateY(-2px); /* Efeito de "levantar" o botão sutilmente */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15); /* Aumenta a sombra para dar profundidade */
 }
 
 ```
