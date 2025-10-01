@@ -4,9 +4,10 @@ Com nosso cabeçalho pronto, vamos criar a primeira seção de conteúdo da pág
 
 <img width="1238" height="468" alt="Captura de Tela 2025-10-01 às 19 06 19" src="https://github.com/user-attachments/assets/0ede453f-1093-4c00-96d6-4b0434a9b03d" />
 
-Nosso objetivo: Construir a seção de boas-vindas com uma imagem de fundo, um título chamativo e um botão de ação.
 
-Conceitos que vamos aprender: Backgrounds com imagens e gradientes, estilização de tipografia (fontes, tamanhos) e a criação de botões interativos.
+**Nosso objetivo**: Construir a seção de boas-vindas com uma imagem de fundo, um título chamativo e um botão de ação.
+
+**Conceitos que vamos aprender**: Backgrounds com imagens e gradientes, estilização de tipografia (fontes, tamanhos) e a criação de botões interativos.
 
 Ao final desse tutorial, teremos o nosso site assim: 
 
