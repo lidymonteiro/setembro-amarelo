@@ -15,7 +15,53 @@ Vamos continuar nosso projeto no ponto em que paramos.
 
 ## A Estrutura HTML da seção "Sobre"
 
-Vamos adicionar o código desta nova seção no `index.html`, logo após o fechamento da `<section id="inicio" class="hero">`.
+Com a seção de destaque (Hero) finalizada (`<section id="inicio" class="hero">`), vamos agora adicionar a seção "Sobre" para explicar a campanha. Esta nova seção ficará logo abaixo da que acabamos de criar.
+
+### Onde adicionar o novo código?
+Este é um passo muito importante para manter nosso código organizado. A nova seção deve ser adicionada depois do final da seção Hero, mas ainda dentro da tag `<main>`.
+
+Vamos ver um exemplo visual de "Antes e Depois" para não ter erro.
+
+ANTES: Como seu código está agora
+
+Neste momento, o final do seu arquivo `index.html` deve se parecer com isto, com a seção Inicio terminando e a tag `</main>` sendo fechada logo em seguida:
+
+```html
+                <a href="#ajuda" class="btn-cta">Quero ajuda</a>
+            </div>
+        </section> <!-- Final da sessão inicio/hero -->
+
+    </main>
+
+</body>
+</html>
+```
+
+DEPOIS: Como seu código deve ficar
+Agora, vamos adicionar a estrutura da nova seção no espaço em branco entre o final da seção `inicio` e o fechamento da tag `</main>`.
+
+O resultado final, com a nova seção Sobre adicionada no lugar certo, ficará assim:
+
+```html
+                <a href="#ajuda" class="btn-cta">Quero ajuda</a>
+            </div>
+        </section>
+
+        <section id="sobre" class="info-section">
+            <div class="container">
+                <h3>O que é o Setembro Amarelo?</h3>
+            </div>
+        </section>
+
+    </main>
+    
+</body>
+</html>
+```
+
+**Resumindo:** a nova `<section id="sobre">` é "irmã" da `<section id="inicio">`, e as duas moram juntas dentro da "casa" `<main>`.
+
+Agora que a estrutura principal da nossa seção está no lugar certo, podemos continuar o tutorial e adicionar o restante do conteúdo (o texto, a imagem e o vídeo) dentro dela.
 
 
 ### Passo 1: A estrutura principal da seção
