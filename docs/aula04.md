@@ -2,9 +2,15 @@
 
 Depois de apresentar a campanha, é fundamental oferecer caminhos para quem precisa de ajuda. Faremos isso criando uma seção com três cards informativos, cada um focado em um recurso diferente.
 
+Ao final desse tutorial, teremos construído a área de ajuda do [site setembro amarelo](https://inspiradanacomputacao.com/setembro-amarelo/): 
+
+<img width="1493" height="608" alt="Captura de Tela 2025-10-03 às 17 01 03" src="https://github.com/user-attachments/assets/434bd805-91ee-44dd-826d-99d250c863a3" />
+
 **Nosso objetivo:** Construir uma seção com um layout de três cards, alinhados e interativos.
 
 **Conceitos que vamos aprender:** Reutilização de componentes HTML (cards), uso de Flexbox para centralizar e distribuir itens, estilização de cards com sombra e interatividade.
+
+**Dica:** Lembre de conferir no navegador cada ajuste que você for fazendo. E ao final das etapas confira se está como no site de exemplo: [https://inspiradanacomputacao.com/setembro-amarelo/](https://inspiradanacomputacao.com/setembro-amarelo/)
 
 **Onde Adicionar o novo código?**
 Como nas outras vezes, a localização é muito importante. A nova seção ajuda deve ser adicionada depois da seção sobre, mas ainda dentro da tag `<main>`.
