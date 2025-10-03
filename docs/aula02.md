@@ -447,6 +447,9 @@ header nav ul li a:hover {
 
 Trabalho fantástico! Agora você tem um cabeçalho funcional e uma seção de destaque visualmente impactante.
 
+<img width="1324" height="518" alt="Captura de Tela 2025-10-03 às 20 33 13" src="https://github.com/user-attachments/assets/31239bef-b749-409f-9932-5a79016cf374" />
+
+
 Para garantir, confira se seu site tem o menu e área principal como no site de exemplo: [https://inspiradanacomputacao.com/setembro-amarelo/](https://inspiradanacomputacao.com/setembro-amarelo/)
 
 
