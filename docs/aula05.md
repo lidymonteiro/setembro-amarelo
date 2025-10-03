@@ -1,4 +1,4 @@
-# Tutorial: Construindo a seção "como ajudar" com CSS Grid
+# Tutorial: Construindo a seção "como ajudar"
 
 Nesta etapa, vamos criar a seção que apresenta dicas de como ajudar. Ao final deste tutorial, teremos construido mais uma seção do [site setembro amarelo](https://inspiradanacomputacao.com/setembro-amarelo/): 
 
