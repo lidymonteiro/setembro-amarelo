@@ -550,5 +550,11 @@ header nav ul li a:hover {
 
 ## Conclusão
 
-Excelente trabalho! Você acabou de construir uma das seções mais importantes e versáteis do site.
-Atualize o navegador e veja como a página está ganhando forma! Compare com o site de exemplo: [https://inspiradanacomputacao.com/setembro-amarelo/](https://inspiradanacomputacao.com/setembro-amarelo/)
+Excelente trabalho! Você acabou de construir uma das seções mais importantes e versáteis do site. Agora temos um site com menu, área principal e sobre. 
+
+
+<img width="709" height="808" alt="Captura de Tela 2025-10-03 às 20 35 20" src="https://github.com/user-attachments/assets/f36b4d4f-9f9c-463e-89d0-33fa7396f506" />
+
+Atualize o seu navegador e veja como a página está ganhando forma! 
+
+Compare com o site de exemplo: [https://inspiradanacomputacao.com/setembro-amarelo/](https://inspiradanacomputacao.com/setembro-amarelo/)
