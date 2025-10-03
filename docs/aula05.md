@@ -1,7 +1,8 @@
 # Tutorial: Construindo a seção "como ajudar" com CSS Grid
 
-
 Nesta etapa, vamos criar a seção que apresenta dicas de como ajudar. Ao final deste tutorial, teremos construido mais uma seção do [site setembro amarelo](https://inspiradanacomputacao.com/setembro-amarelo/): 
+
+<img width="1316" height="548" alt="Captura de Tela 2025-10-03 às 19 54 09" src="https://github.com/user-attachments/assets/c8907bc9-3766-49dd-843d-3bde654343e7" />
 
 Para organizar os quatro itens de forma alinhada e responsiva, vamos aprender a usar uma das ferramentas mais poderosas do CSS moderno: o Grid Layout.
 
@@ -134,6 +135,136 @@ Após seguir os passos acima, o HTML completo da sessão ajuda ficará assim:
 </section>
 ```
 
+### Revisão do HTML
+
+Após realizar as etapas anteriores, esse será o código HTML completo do seu site:
+
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Setembro Amarelo - Abrace a Vida</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo-wrapper">  <span class="logo-icon" aria-hidden="true">🎗️</span>
+                <h1 class="logo-text">Setembro Amarelo</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#ajuda">Onde buscar ajuda</a></li>
+                    <li><a href="#como-ajudar">Como ajudar</a></li>
+                    <li><a href="#recursos">Recursos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <div class="container">
+                <h2>Conversar pode mudar vidas</h2>
+                <p class="hero-hashtag">#VocêNãoEstáSozinho</p> 
+                <p>Uma campanha de conscientização sobre a prevenção do suicídio.</p>
+                <a href="#ajuda" class="btn-cta">Quero ajuda</a>
+            </div>
+        </section>
+
+        <section id="sobre" class="info-section">
+            <div class="container">
+                <h3>O que é o Setembro Amarelo?</h3>
+                <div class="sobre-content">
+                    <div class="sobre-texto">
+                        <p>O Setembro Amarelo é uma campanha de prevenção ao suicídio, com o objetivo direto de alertar a população sobre a realidade do suicídio e suas formas de prevenção. A campanha acontece durante o mês de setembro, mas a conscientização é para o ano todo.</p>
+                        <p>É um movimento iniciado no Brasil em 2015 pelo Centro de Valorização da Vida (CVV), Conselho Federal de Medicina (CFM) e Associação Brasileira de Psiquiatria (ABP).</p>
+                    </div>
+                    <div class="sobre-imagem">
+                        <img src="images/grupo-amigos.png" alt="Duas pessoas se consolando com um abraço, simbolizando apoio e empatia.">
+                    </div>
+                </div>
+
+                <div class="video-container">
+                    <p>Assista ao vídeo da campanha do CVV para entender melhor a importância de falar.</p>
+                    <iframe width="560" height="315"
+                    src="https://www.youtube-nocookie.com/embed/7YzmGnMDNvk?rel=0"
+                    title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section id="ajuda" class="call-to-action light-bg">
+            <div class="container">
+                <h3>Você não está sozinha(o). Busque Ajuda!</h3>
+                <div class="cards-ajuda">
+
+                    <div class="card">
+                        <h4>CVV - Centro de Valorização da Vida</h4>
+                        <p>Atendimento voluntário e gratuito, 24 horas por dia, todos os dias da semana. Sigiloso.</p>
+                        <a href="tel:188" class="btn-card">Ligue 188</a>
+                        <a href="https://www.cvv.org.br/" target="_blank" class="btn-card">Site do CVV</a>
+                    </div>
+
+                    <div class="card">
+                        <h4>CAPS - Centro de Atenção Psicossocial</h4>
+                        <p>Serviços de saúde mental públicos e gratuitos.</p>
+                        <a href="#" class="btn-card">Encontre um CAPS</a>
+                    </div>
+
+                    <div class="card">
+                        <h4>Urgências e emergências</h4>
+                        <p>Em casos de emergência, procure um pronto atendimento médico ou hospitalar.</p>
+                        <a href="tel:192" class="btn-card">SAMU 192</a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="como-ajudar" class="info-section">
+            <div class="container">
+                <h3>Como posso ajudar?</h3>
+                <div class="grid-ajuda">
+                    <div class="item-ajuda">
+                        <h4>Ouça sem julgar</h4>
+                        <p>Ofereça um ouvido atento e sem preconceitos. Mostre que você se importa.</p>
+                    </div>
+        
+                    <div class="item-ajuda">
+                        <h4>Incentive a busca por ajuda profissional</h4>
+                        <p>Sugira que a pessoa converse com um psicólogo, psiquiatra ou médico.</p>
+                    </div>
+        
+                    <div class="item-ajuda">
+                        <h4>Mantenha contato</h4>
+                        <p>Continue demonstrando apoio e acompanhando a pessoa, mesmo que de longe.</p>
+                    </div>
+        
+                    <div class="item-ajuda">
+                        <h4>Fique atento aos sinais</h4>
+                        <p>Mudanças de humor, isolamento, perda de interesse em atividades. Não ignore.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Continua abaixo os outros códigos HTML -->
+
+</body>
+</html>
+```
+
+
 ## Estilizando com CSS Grid
 
 Agora, vamos ao arquivo `style.css` para aprender a usar o Grid Layout e criar nosso layout de quatro colunas.
@@ -164,7 +295,10 @@ Este é o passo principal, onde a mágica do Grid acontece. Vamos aplicar as pro
 
 ## Passo 2: Estilizando o item individual (`.item-ajuda`)
 
-O estilo de cada item da grade é muito parecido com o do `.card` que fizemos na seção anterior. Vamos aplicar um fundo, bordas arredondadas, espaçamento e uma sombra.
+O estilo de cada item da grade é muito parecido com o do `.card` que fizemos na seção anterior. Vamos aplicar um fundo, bordas arredondadas, espaçamento e uma sombra. Por exemplo, o primeiro item:
+
+<img width="250" height="318" alt="Captura de Tela 2025-10-03 às 19 57 54" src="https://github.com/user-attachments/assets/5b09d1a7-e668-4015-908d-c3a22e648813" />
+
 
 Adicione o código abaixo:
 
@@ -517,9 +651,6 @@ Excelente! Você acaba de aprender a usar CSS Grid, uma das ferramentas de layou
 Enquanto o Flexbox é ideal para alinhar itens em uma única dimensão (uma linha ou uma coluna), o Grid é a ferramenta perfeita para layouts em duas dimensões (linhas e colunas), como a que acabamos de criar.
 
 Atualize o navegador e veja como a página está ainda mais completa! Compare com o site de exemplo: [https://inspiradanacomputacao.com/setembro-amarelo/](https://inspiradanacomputacao.com/setembro-amarelo/)
-
-
-
 
 
 
