@@ -1,10 +1,13 @@
-## Desafio: Construindo a seção de recursos (id="recursos")
+## Desafio: Construindo a seção de recursos adicionais (id="recursos")
 
 Chegamos à nossa última seção de conteúdo principal! Aqui, vamos adicionar uma lista de links para recursos externos.
 
 Desta vez, o desafio é com vocês! A proposta é que vocês construam toda a seção, do HTML ao CSS, usando tudo o que aprendemos até agora. Este é o momento de conectar os pontos e mostrar o que vocês aprenderam.
 
-Você precisa construir é uma seção simples e limpa com um fundo claro, um título centralizado e uma lista de links de recursos logo abaixo.
+Você precisa construir é uma seção simples e limpa com um fundo claro, um título centralizado e uma lista de links de recursos logo abaixo. Essa a seção de recursos adicionais do [site setembro amarelo](https://inspiradanacomputacao.com/setembro-amarelo/): 
+
+<img width="1318" height="427" alt="Captura de Tela 2025-10-03 às 20 30 27" src="https://github.com/user-attachments/assets/56f2341e-a29c-4f6b-9ed4-5dc48f1695a4" />
+
 
 Não se preocupem, não vou deixá-los no escuro. Abaixo está um guia com dicas e um passo a passo do que precisa ser feito.
 
