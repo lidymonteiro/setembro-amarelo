@@ -45,7 +45,7 @@ Ao seguir este guia e entender cada linha de código, você terá um controle mu
 
 Antes de aplicar a responsividade, garanta que seu projeto já esteja com a estrutura base correta — HTML organizado, classes, IDs consistentes, estrutura de pastas (css, images) e o arquivo de estilo `style.css` das etapas anteriores funcionando.
 
-Para fins didáticos e para evitar qualquer bug desapercebido, acesse a pasta do seu projeto (veja em que pasta você salvou seu projeto). Por exemplo, se você seguiu o primeiro tutorial deve estar assim: 
+Para fins didáticos e para evitar qualquer bug desapercebido, acesse a pasta do seu projeto (veja em que pasta você salvou os arquivos do site). Por exemplo, se você seguiu o primeiro tutorial deve estar assim: 
 
 ```
 setembro-amarelo/
