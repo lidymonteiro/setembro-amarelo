@@ -13,7 +13,7 @@ A responsividade é crucial para que o site se adapte e tenha uma boa aparência
   - [Código CSS completo da página](#codigo-css-completo-da-pagina)
 - [Passo 1: Ajustes importantes no CSS existente em body e .container](#passo-1-ajustes-importantes-no-css-existente-em-body-e-container)
 - [Passo 2: Definindo os breakpoints com Media Queries](#passo-2-definindo-os-breakpoints-com-media-queries)
-- [Passo 3: Deploy e entrega da primeira versão para feedback do cliente](#passo-3-publicacao-da-primeira-versao-para-feedback)
+- [Passo 3: Deploy e entrega da primeira versão para feedback do cliente](https://github.com/lidymonteiro/setembro-amarelo/blob/main/docs/aula08.md#passo-3-publica%C3%A7%C3%A3o-da-primeira-vers%C3%A3o-para-feedback)
 
 
 ## Como usar este tutorial:
