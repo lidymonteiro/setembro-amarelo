@@ -13,7 +13,7 @@ A responsividade é crucial para que o site se adapte e tenha uma boa aparência
   - [Código CSS completo da página](#codigo-css-completo-da-pagina)
 - [Passo 1: Ajustes importantes no CSS existente em body e .container](#passo-1-ajustes-importantes-no-css-existente-em-body-e-container)
 - [Passo 2: Definindo os breakpoints com Media Queries](#passo-2-definindo-os-breakpoints-com-media-queries)
-- [Passo 3: Publicação da primeira versão para feedback](#passo-3-publicacao-da-primeira-versao-para-feedback)
+- [Passo 3: Deploy e entrega da primeira versão para feedback do cliente](#passo-3-publicacao-da-primeira-versao-para-feedback)
 
 
 ## Como usar este tutorial:
@@ -44,9 +44,9 @@ Ao seguir este guia e entender cada linha de código, você terá um controle mu
 
 Antes de aplicar a responsividade, garanta que seu projeto já esteja com a estrutura base correta — HTML organizado, classes e IDs consistentes e o CSS das etapas anteriores funcionando.
 
-Para fins didáticos (e para o caso de você ter parado em uma etapa anterior), abra o `index.html` e o `style.css` e substitua seus conteúdos pelos códigos a seguir. Assim, você parte de uma versão estável e comprovadamente funcional do site.
+Para fins didáticos e para evitar qualquer bug desapercebido, abra o `index.html` e o `style.css` e substitua seus conteúdos pelos códigos a seguir. Assim, você parte de uma versão estável e comprovadamente funcional do site.
 
-Após substituir os códigos, abra o seu site no navegador e compare com o modelo [https://inspiradanacomputacao.com/setembro-amarelo/](https://inspiradanacomputacao.com/setembro-amarelo/) para verificar se está semelhante. Caso esteja, siga para a próxima etapa. 
+Após substituir os códigos, abra o seu site no navegador e compare visualmente com o modelo [https://inspiradanacomputacao.com/setembro-amarelo/](https://inspiradanacomputacao.com/setembro-amarelo/) para verificar se está semelhante (áreas, espaçamento, titulo, etc). Caso esteja, siga para a próxima etapa. 
 
 
 ### Código HTML completo da página: 
