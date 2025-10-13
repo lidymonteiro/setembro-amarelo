@@ -1700,7 +1700,7 @@ Lembre-se de testar e conferir no navegador o resultado, selecionando diferentes
 
 ## Observação: Responsividade do Menu
 
-Nosso site está responsivo e funcionando bem. Porém, faltou um detalhe muito importante. O menu em dispositivos menores não está tão legal. O ideal é que ele fique agregado em um ícone e ao clicar ele seja aberto. Vamos aprender a fazer isso nas próximas aulas melhorando o CSS3 e aplicando Javascript para fazer essa interatividade. 
+Nosso site está responsivo e funcionando bem. Porém, faltou um detalhe muito importante. O menu em dispositivos menores não está tão legal. O ideal é que ele fique agregado em um ícone e ao clicar ele seja aberto. Vamos aprender a fazer isso nas próximas aulas melhorando o CSS e aplicando Javascript para fazer essa interatividade. 
 
 
 
@@ -1732,13 +1732,38 @@ Antes de publicarmos, é fundamental garantir que a pasta do seu projeto esteja 
 
 Estrutura Essencial: Confirme que sua pasta principal do projeto contém:
 
-- O arquivo principal: index.html
+- O arquivo principal: `index.html`
 
-- A pasta css (com seus arquivos de estilo, como style.css)
+- A pasta `css` (com seu arquivo de estilo, como `style.css`)
 
-- A pasta images (com todas as imagens usadas no site)
+- A pasta `images` (com todas as imagens usadas no site)
+
+
+**Exemplo**: 
+- Nome da pasta do projeto: `setembro-amarelo-site`
+- Conteúdo da pasta: 
+<img width="892" height="204" alt="Captura de Tela 2025-10-13 às 01 41 44" src="https://github.com/user-attachments/assets/14cbe24e-0440-4bec-9eed-6df52cd1e5f4" />
 
 **Mantenha Limpo:** É muito importante que não haja nenhum outro arquivo ou pasta que não faça parte diretamente do site. Evite incluir rascunhos, arquivos temporários, downloads ou qualquer coisa que não seja exibida no seu navegador. O que você enviar para o servidor deve ser apenas o que compõe o seu site.
 
 Esta organização garante que o processo de publicação seja suave, que seu site carregue de forma mais eficiente e, crucialmente, contribui para a segurança. Ao enviar apenas os arquivos essenciais, você reduz a chance de expor acidentalmente informações sensíveis ou de criar "portas" desnecessárias que poderiam ser exploradas. É uma boa prática de segurança para qualquer projeto web.
 
+
+### Etapa 3: Deploy - Colocando o site no servidor
+
+
+Agora que sua conta no Netlify está criada e a pasta do seu projeto está organizada, é hora de colocar seu site no ar! É surpreendentemente fácil.
+
+Após fazer login na Netlify você estará nessa página que fica na aba "projetos" ou "projects:
+
+
+<img width="1920" height="1080" alt="1" src="https://github.com/user-attachments/assets/a3f8c62d-b9ba-46d7-aa1d-f9d25c5cec29" />
+
+
+<img width="1920" height="1080" alt="2" src="https://github.com/user-attachments/assets/739baf09-bc21-4a40-a65e-f5a16d2227c5" />
+
+
+<img width="1920" height="1080" alt="3" src="https://github.com/user-attachments/assets/47ae6933-1334-4176-ada8-0f5176d25bbb" />
+
+
+<img width="1920" height="1080" alt="4" src="https://github.com/user-attachments/assets/62422a8f-d638-4c61-9341-c31bc8c90eb3" />
