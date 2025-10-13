@@ -3,6 +3,20 @@
 A responsividade é crucial para que o site se adapte e tenha uma boa aparência em diversos dispositivos, desde celulares até telas de desktop grandes. O CSS que construimos até aqui já está mais focado em desktop, então usaremos o `max-width` para aplicar estilos a telas menores.
 
 
+## Índice
+
+- [Como usar este tutorial](#como-usar-este-tutorial) 
+- [Passo 0: Código HTML e CSS3 completo do site sem responsividade](#passo-0-codigo-html-e-css3-completo-do-site-sem-responsividade)
+  - [Código HTML completo da página](#codigo-html-completo-da-pagina)
+  - [Código CSS completo da página](#codigo-css-completo-da-pagina)
+- [Passo 1: Ajustes importantes no CSS existente em body e .container](#passo-1-ajustes-importantes-no-css-existente-em-body-e-container)
+- [Passo 2: Definindo os breakpoints com Media Queries](#passo-2-definindo-os-breakpoints-com-media-queries)
+- [Passo 3: Publicação da primeira versão para feedback](#passo-3-publicacao-da-primeira-versao-para-feedback)
+
+
+## Passo 3: Publicação da primeira versão para feedback
+
+
 ## Como usar este tutorial:
 **Entenda e revise a Lógica:** Leia as explicações para cada bloco de código. Perceba como os estilos são "cascateados" (herdados e sobrescritos) de telas maiores para menores.
 
@@ -1704,7 +1718,7 @@ Nosso site está responsivo e funcionando bem. Porém, faltou um detalhe muito i
 
 
 
-## Passo 3: Publicação da Primeira Versão para Feedback
+## Passo 3: Publicação da primeira versão para feedback
 
 Com as principais seções do site já adaptadas para diferentes telas, é hora de disponibilizar nossa primeira versão online. O cliente já está ciente de que o menu será finalizado em breve e deseja acompanhar o progresso e fornecer um feedback inicial.
 
