@@ -10,7 +10,7 @@ O foco deste tutorial e desta atividade é praticar responsividade e fazer deplo
 - [Como usar este tutorial](#como-usar-este-tutorial) 
 - [Passo 0: Código HTML e CSS3 correto do site sem responsividade](https://github.com/lidymonteiro/setembro-amarelo/blob/main/docs/aula08.md#passo-0-c%C3%B3digo-html-e-css3-completo-do-site-sem-responsividade)
   - [Código HTML completo da página](https://github.com/lidymonteiro/setembro-amarelo/blob/main/docs/aula08.md#passo-3-publica%C3%A7%C3%A3o-da-primeira-vers%C3%A3o-para-feedback)
-  - [Código CSS completo da página](#codigo-css-completo-da-pagina](https://github.com/lidymonteiro/setembro-amarelo/blob/main/docs/aula08.md#passo-0-c%C3%B3digo-html-e-css3-completo-do-site-sem-responsividade)
+  - [Código CSS completo da página](https://github.com/lidymonteiro/setembro-amarelo/blob/main/docs/aula08.md#passo-0-c%C3%B3digo-html-e-css3-completo-do-site-sem-responsividade)
 - [Passo 1: Ajustes importantes no CSS existente em body e .container](#passo-1-ajustes-importantes-no-css-existente-em-body-e-container)
 - [Passo 2: Definindo os breakpoints com Media Queries](#passo-2-definindo-os-breakpoints-com-media-queries)
 - [Passo 3: Deploy e entrega da primeira versão para feedback do cliente](https://github.com/lidymonteiro/setembro-amarelo/blob/main/docs/aula08.md#passo-3-publica%C3%A7%C3%A3o-da-primeira-vers%C3%A3o-para-feedback)
@@ -43,9 +43,19 @@ Ao seguir este guia e entender cada linha de código, você terá um controle mu
 
 ## Passo 0: Código HTML e CSS3 completo do site sem responsividade 
 
-Antes de aplicar a responsividade, garanta que seu projeto já esteja com a estrutura base correta — HTML organizado, classes e IDs consistentes e o CSS das etapas anteriores funcionando.
+Antes de aplicar a responsividade, garanta que seu projeto já esteja com a estrutura base correta — HTML organizado, classes, IDs consistentes, estrutura de pastas (css, images) e o arquivo de estilo `style.css` das etapas anteriores funcionando.
 
-Para fins didáticos e para evitar qualquer bug desapercebido, abra o `index.html` e o `style.css` e substitua seus conteúdos pelos códigos a seguir. Assim, você parte de uma versão estável e comprovadamente funcional do site.
+Para fins didáticos e para evitar qualquer bug desapercebido, acesse a pasta do seu projeto (veja em que pasta você salvou seu projeto). Por exemplo, se você seguiu o primeiro tutorial deve estar assim: 
+
+setembro-amarelo/
+├─ index.html
+├─ css/
+│  └─ style.css
+└─ images/
+   ├─ grupo-amigos.png
+   └─ (demais imagens que você usar)
+
+Abra o `index.html` e o `style.css` e substitua seus conteúdos pelos códigos completos abaixo. Assim, você terá de uma versão estável e comprovadamente funcional do site.
 
 Após substituir os códigos, abra o seu site no navegador e compare visualmente com o modelo [https://inspiradanacomputacao.com/setembro-amarelo/](https://inspiradanacomputacao.com/setembro-amarelo/) para verificar se está semelhante (áreas, espaçamento, titulo, etc). Caso esteja, siga para a próxima etapa. 
 
