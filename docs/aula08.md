@@ -8,7 +8,7 @@ A responsividade é crucial para que o site se adapte e tenha uma boa aparência
 
 
 - [Como usar este tutorial](#como-usar-este-tutorial) 
-- [Passo 0: Código HTML e CSS3 completo do site sem responsividade](#passo-0-codigo-html-e-css3-completo-do-site-sem-responsividade)
+- [Passo 0: Código HTML e CSS3 completo do site sem responsividade]([#passo-0-codigo-html-e-css3-completo-do-site-sem-responsividade](https://github.com/lidymonteiro/setembro-amarelo/blob/main/docs/aula08.md#passo-0-c%C3%B3digo-html-e-css3-completo-do-site-sem-responsividade))
   - [Código HTML completo da página](#codigo-html-completo-da-pagina)
   - [Código CSS completo da página](#codigo-css-completo-da-pagina)
 - [Passo 1: Ajustes importantes no CSS existente em body e .container](#passo-1-ajustes-importantes-no-css-existente-em-body-e-container)
