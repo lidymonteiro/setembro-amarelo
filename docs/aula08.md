@@ -17,7 +17,7 @@ A responsividade é crucial para que o site se adapte e tenha uma boa aparência
 
 
 ## Como usar este tutorial:
-O foco deste tutorial é praticar responsividade e fazer deploy da primeira versão do site para mostrar ao cliente. Portanto, para cumprir esse objetivo o código HTML e CSS do site no seu computador (que aprendemos nos outros tutoriais) precisa estar sem bugs e completamente funcional. Realize a etapa 0 antes de prosseguir para garantir que tudo funciona corretamente. 
+O foco deste tutorial e desta atividade é praticar responsividade e fazer deploy da primeira versão do site para mostrar ao cliente. Portanto, para cumprir esse objetivo o código HTML e CSS do site no seu computador (que aprendemos nos outros tutoriais) precisa estar sem bugs e completamente funcional. Realize o passo 0 deste tutorial antes de prosseguir para a etapa 1 para garantir que tudo funciona corretamente. 
 
 **Entenda e revise a Lógica:** Leia as explicações para cada bloco de código. Perceba como os estilos são "cascateados" (herdados e sobrescritos) de telas maiores para menores.
 
