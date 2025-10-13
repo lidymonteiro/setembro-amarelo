@@ -1,4 +1,4 @@
-# Tutorial: Construindo a responsividade do site
+# Tutorial: Construindo a responsividade do site e primeira entrega ao cliente
 
 A responsividade é crucial para que o site se adapte e tenha uma boa aparência em diversos dispositivos, desde celulares até telas de desktop grandes. O CSS que construimos até aqui já está mais focado em desktop, então usaremos o `max-width` para aplicar estilos a telas menores.
 
