@@ -1768,6 +1768,7 @@ Se tudo estiver ok, confirme clicando em fazer upload.
 
 <img width="1920" height="1080" alt="3" src="https://github.com/user-attachments/assets/47ae6933-1334-4176-ada8-0f5176d25bbb" />
 
-Pronto, seu site está no ar! Copie o link do seu site (veja onde pegar na imagem) e está pronto para enviar para o cliente conferir. 
+Pronto, seu site está no ar! Copie o endereço do seu site gerado pela Netlify no painel e está pronto para enviar para o cliente conferir. 
+O endereço do seu site termina com `.netlify.app` como mostrado na imagem abaixo. 
 
 <img width="1920" height="1080" alt="4" src="https://github.com/user-attachments/assets/62422a8f-d638-4c61-9341-c31bc8c90eb3" />
