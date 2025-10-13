@@ -10,13 +10,15 @@ A responsividade é crucial para que o site se adapte e tenha uma boa aparência
 - [Como usar este tutorial](#como-usar-este-tutorial) 
 - [Passo 0: Código HTML e CSS3 correto do site sem responsividade](https://github.com/lidymonteiro/setembro-amarelo/blob/main/docs/aula08.md#passo-0-c%C3%B3digo-html-e-css3-completo-do-site-sem-responsividade)
   - [Código HTML completo da página](https://github.com/lidymonteiro/setembro-amarelo/blob/main/docs/aula08.md#passo-3-publica%C3%A7%C3%A3o-da-primeira-vers%C3%A3o-para-feedback)
-  - [Código CSS completo da página](#codigo-css-completo-da-pagina)
+  - [Código CSS completo da página]([#codigo-css-completo-da-pagina](https://github.com/lidymonteiro/setembro-amarelo/blob/main/docs/aula08.md#passo-3-publica%C3%A7%C3%A3o-da-primeira-vers%C3%A3o-para-feedback))
 - [Passo 1: Ajustes importantes no CSS existente em body e .container](#passo-1-ajustes-importantes-no-css-existente-em-body-e-container)
 - [Passo 2: Definindo os breakpoints com Media Queries](#passo-2-definindo-os-breakpoints-com-media-queries)
 - [Passo 3: Deploy e entrega da primeira versão para feedback do cliente](https://github.com/lidymonteiro/setembro-amarelo/blob/main/docs/aula08.md#passo-3-publica%C3%A7%C3%A3o-da-primeira-vers%C3%A3o-para-feedback)
 
 
 ## Como usar este tutorial:
+O foco deste tutorial é aprender responsividade e fazer deploy da primeira versão do site para mostrar ao cliente. Portanto, para cumprir esse objetivo o código HTML e CSS do site no seu computador (que aprendemos nos outros tutoriais) precisa estar sem bugs e completamente funcional. Realize a etapa 0 antes de prosseguir para garantir que tudo funciona corretamente. 
+
 **Entenda e revise a Lógica:** Leia as explicações para cada bloco de código. Perceba como os estilos são "cascateados" (herdados e sobrescritos) de telas maiores para menores.
 
 ***Teste no Navegador:** Abra seu site em um navegador (como Chrome ou Firefox) e use as ferramentas de desenvolvedor (clique direito > "Inspecionar" ou F12). Use a função de "Device Mode" (ícone de celular/tablet) para simular diferentes tamanhos de tela. Redimensione a janela do navegador para ver os breakpoints em ação.
