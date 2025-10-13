@@ -2,10 +2,10 @@
 
 A responsividade é crucial para que o site se adapte e tenha uma boa aparência em diversos dispositivos, desde celulares até telas de desktop grandes. O CSS que construimos até aqui já está mais focado em desktop, então usaremos o `max-width` para aplicar estilos a telas menores.
 
+O foco deste tutorial e desta atividade é praticar responsividade e fazer deploy da primeira versão do site para mostrar ao cliente (entrega pelo Teams). Portanto, para cumprir esse objetivo o código HTML e CSS do site no seu computador (que aprendemos nos outros tutoriais) precisa estar sem bugs e completamente funcional. Realize o Passo 0 deste tutorial antes de prosseguir para o Passo 1 para garantir que tudo funciona corretamente e para manter seu foco no objetivo: Construir a responsividade do site e entregar ao cliente uma versão funcional para ele avaliar. 
+
 
 ## Índice
-
-
 
 - [Como usar este tutorial](#como-usar-este-tutorial) 
 - [Passo 0: Código HTML e CSS3 correto do site sem responsividade](https://github.com/lidymonteiro/setembro-amarelo/blob/main/docs/aula08.md#passo-0-c%C3%B3digo-html-e-css3-completo-do-site-sem-responsividade)
@@ -16,8 +16,7 @@ A responsividade é crucial para que o site se adapte e tenha uma boa aparência
 - [Passo 3: Deploy e entrega da primeira versão para feedback do cliente](https://github.com/lidymonteiro/setembro-amarelo/blob/main/docs/aula08.md#passo-3-publica%C3%A7%C3%A3o-da-primeira-vers%C3%A3o-para-feedback)
 
 
-## Como usar este tutorial:
-O foco deste tutorial e desta atividade é praticar responsividade e fazer deploy da primeira versão do site para mostrar ao cliente. Portanto, para cumprir esse objetivo o código HTML e CSS do site no seu computador (que aprendemos nos outros tutoriais) precisa estar sem bugs e completamente funcional. Realize o Passo 0 deste tutorial antes de prosseguir para o Passo 1 para garantir que tudo funciona corretamente e para manter seu foco no objetivo: Construir a responsividade do site e entregar ao cliente uma versão funcional para ele avaliar. 
+## Dicas:
 
 **Entenda e revise a Lógica:** Leia as explicações para cada bloco de código. Perceba como os estilos são "cascateados" (herdados e sobrescritos) de telas maiores para menores.
 
