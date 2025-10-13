@@ -13,10 +13,6 @@ A responsividade é crucial para que o site se adapte e tenha uma boa aparência
 - [Passo 2: Definindo os breakpoints com Media Queries](#passo-2-definindo-os-breakpoints-com-media-queries)
 - [Passo 3: Publicação da primeira versão para feedback](#passo-3-publicacao-da-primeira-versao-para-feedback)
 
-
-## Passo 3: Publicação da primeira versão para feedback
-
-
 ## Como usar este tutorial:
 **Entenda e revise a Lógica:** Leia as explicações para cada bloco de código. Perceba como os estilos são "cascateados" (herdados e sobrescritos) de telas maiores para menores.
 
