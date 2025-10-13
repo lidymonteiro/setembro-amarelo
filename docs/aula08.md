@@ -47,6 +47,7 @@ Antes de aplicar a responsividade, garanta que seu projeto já esteja com a estr
 
 Para fins didáticos e para evitar qualquer bug desapercebido, acesse a pasta do seu projeto (veja em que pasta você salvou seu projeto). Por exemplo, se você seguiu o primeiro tutorial deve estar assim: 
 
+```
 setembro-amarelo/
 ├─ index.html
 ├─ css/
@@ -54,6 +55,7 @@ setembro-amarelo/
 └─ images/
    ├─ grupo-amigos.png
    └─ (demais imagens que você usar)
+```
 
 Abra o `index.html` e o `style.css` e substitua seus conteúdos pelos códigos completos abaixo. Assim, você terá de uma versão estável e comprovadamente funcional do site.
 
