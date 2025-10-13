@@ -1754,16 +1754,20 @@ Esta organização garante que o processo de publicação seja suave, que seu si
 
 Agora que sua conta no Netlify está criada e a pasta do seu projeto está organizada, é hora de colocar seu site no ar! É surpreendentemente fácil.
 
-Após fazer login na Netlify você estará nessa página que fica na aba "projetos" ou "projects:
-
+Após fazer login na Netlify você estará nessa página que fica na aba "projetos" ou "projects. 1) Clique na área de deploy manual para selecionar a pasta do seu computador onde está o seu projeto e 2) fazer o deploy: 
 
 <img width="1920" height="1080" alt="1" src="https://github.com/user-attachments/assets/a3f8c62d-b9ba-46d7-aa1d-f9d25c5cec29" />
 
-
 <img width="1920" height="1080" alt="2" src="https://github.com/user-attachments/assets/739baf09-bc21-4a40-a65e-f5a16d2227c5" />
 
+Em seguida, confira a quantidade de arquivos da mensagem. 
+
+*Tenha atenção a quantidade de arquivos que aparece na mensagem. Se você tiver mais que 5 arquivos sendo enviados você pode estar com a pasta com arquivos desnecessários ou ter selecionado a pasta de projeto errada. Afinal, temos 1 arquivo html, 1 arquivo css e 2 fotos.*
+
+Se tudo estiver ok, confirme clicando em fazer upload. 
 
 <img width="1920" height="1080" alt="3" src="https://github.com/user-attachments/assets/47ae6933-1334-4176-ada8-0f5176d25bbb" />
 
+Pronto, seu site está no ar! Copie o link do seu site (veja onde pegar na imagem) e está pronto para enviar para o cliente conferir. 
 
 <img width="1920" height="1080" alt="4" src="https://github.com/user-attachments/assets/62422a8f-d638-4c61-9341-c31bc8c90eb3" />
