@@ -1739,7 +1739,7 @@ Estrutura Essencial: Confirme que sua pasta principal do projeto contém:
 - A pasta `images` (com todas as imagens usadas no site)
 
 
-**Exemplo**: 
+**Exemplo de como fiz no meu computador**: 
 - Nome da pasta do projeto: `setembro-amarelo-site`
 - Conteúdo da pasta: 
 <img width="892" height="204" alt="Captura de Tela 2025-10-13 às 01 41 44" src="https://github.com/user-attachments/assets/14cbe24e-0440-4bec-9eed-6df52cd1e5f4" />
