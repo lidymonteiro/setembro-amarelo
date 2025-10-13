@@ -1768,7 +1768,27 @@ Se tudo estiver ok, confirme clicando em fazer upload.
 
 <img width="1920" height="1080" alt="3" src="https://github.com/user-attachments/assets/47ae6933-1334-4176-ada8-0f5176d25bbb" />
 
-Pronto, seu site está no ar! Copie o endereço do seu site gerado pela Netlify no painel e está pronto para enviar para o cliente conferir. 
-O endereço do seu site termina com `.netlify.app` como mostrado na imagem abaixo. 
+Assim que o processo terminar, o Netlify irá gerar um link público (com um nome aleatório, como happy-panda-12345.netlify.app). O endereço do seu site sempre termina com .netlify.app.
 
 <img width="1920" height="1080" alt="4" src="https://github.com/user-attachments/assets/62422a8f-d638-4c61-9341-c31bc8c90eb3" />
+
+
+#### Envio para o cliente: 
+
+1. Testes manuais:
+   
+- Clique no link/endereço do seu site para abrir no navegador.
+
+- Navegue por todas as seções, clique nos links e verifique as imagens.
+
+- Redimensione a janela do navegador para diferentes tamanhos (como se fosse um celular ou tablet) e confira se a responsividade está funcionando perfeitamente como planejamos.
+
+- Certifique-se de que não há nenhum erro de digitação ou problema visual.
+
+2. Envie o Link para o Cliente:
+- Somente após você ter certeza de que está tudo em ordem, copie este link e envie-o para seu cliente. Envie o link pelo Teams na área de entrega dessa atividade. 
+
+
+### Parabéns!
+
+O primeiro deploy a gente nunca esquece! Você não só publicou seu site, mas também desenvolveu o hábito importante de testar seu trabalho online.
